@@ -190,6 +190,8 @@ case "$1" in
 	echo "Flags are passed through to |./repo sync|."
 	echo
 	echo Valid devices to configure are:
+	echo +--Huawei
+	echo - nypon
 	echo +--LG
 	echo - e400
 	echo +--Sony Ericsson
