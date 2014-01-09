@@ -150,8 +150,8 @@ case "$1" in
 	repo_sync $1
 	;;
 "nypon")
-	echo DEVICE=nypon >> .tmp-config &&
-	echo LUNCH=full_nypon-eng >> .tmp-config &&
+	echo DEVICE=hwu8160 >> .tmp-config &&
+	echo LUNCH=full_hwu8160-eng >> .tmp-config &&
 	repo_sync $1
 	;;
 "pepper")
@@ -190,6 +190,8 @@ case "$1" in
 	echo "Flags are passed through to |./repo sync|."
 	echo
 	echo Valid devices to configure are:
+	echo +--Huawei
+	echo - nypon
 	echo +--LG
 	echo - e400
 	echo +--Sony Ericsson
