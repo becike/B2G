@@ -75,6 +75,11 @@ echo GECKO_OBJDIR=$PWD/objdir-gecko >> .tmp-config
 echo DEVICE_NAME=$1 >> .tmp-config
 
 case "$1" in
+"galaxy-mini")
+	echo DEVICE=tass >> .tmp-config &&
+	repo_sync galaxy-mini
+	;;
+	
 "galaxy-s2")
 	echo DEVICE=galaxys2 >> .tmp-config &&
 	repo_sync $1
