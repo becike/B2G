@@ -145,7 +145,10 @@ case "$1" in
 	echo DEVICE=flo >> .tmp-config &&
 	repo_sync $1
 	;;
-
+"u8160")
+	echo DEVICE=u8160 >> .tmp-config &&
+	repo_sync $1
+	;;
 *)
 	echo "Usage: $0 [-cdflnq] (device name)"
 	echo "Flags are passed through to |./repo sync|."
