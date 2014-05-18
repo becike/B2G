@@ -160,6 +160,7 @@ case "$1" in
 	echo - nexus-s
 	echo - nexus-s-4g
 	echo - flo "(Nexus 7 2013)"
+	echo - u8160
 	echo - otoro
 	echo - unagi
 	echo - inari
